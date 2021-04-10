@@ -1,0 +1,148 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1618009630515" />
+    </e>
+    <e n="ChangesView.AddUnversioned">
+      <i c="3" l="1618011533781" />
+    </e>
+    <e n="ChangesView.GroupBy">
+      <i c="9" l="1618010282841" />
+    </e>
+    <e n="ChangesView.GroupBy.Directory">
+      <i c="4" l="1618010282049" />
+    </e>
+    <e n="ChangesView.GroupBy.Module">
+      <i c="4" l="1618010284030" />
+    </e>
+    <e n="ChangesView.RemoveChangeList">
+      <i c="1" l="1618011702524" />
+    </e>
+    <e n="CheckinProject">
+      <i c="11" l="1618013355205" />
+    </e>
+    <e n="CloseAllEditors">
+      <i c="2" l="1618012185155" />
+    </e>
+    <e n="CloseProject">
+      <i c="7" l="1618016571609" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="1" l="1618012895463" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="15" l="1618012896864" />
+    </e>
+    <e n="EditorCopy">
+      <i c="5" l="1618009956684" />
+    </e>
+    <e n="EditorDown">
+      <i c="3" l="1618009889287" />
+    </e>
+    <e n="EditorDownWithSelection">
+      <i c="20" l="1618009911822" />
+    </e>
+    <e n="EditorEnter">
+      <i c="4" l="1618009964685" />
+    </e>
+    <e n="EditorLeft">
+      <i c="2" l="1618009560705" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="2" l="1618009747751" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="2" l="1618009643133" />
+    </e>
+    <e n="EditorPaste">
+      <i c="13" l="1618013389545" />
+    </e>
+    <e n="EditorRight">
+      <i c="26" l="1618009910422" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="14" l="1618009746922" />
+    </e>
+    <e n="EditorUp">
+      <i c="5" l="1618009913142" />
+    </e>
+    <e n="FileChooser.ShowHiddens">
+      <i c="1" l="1618013088022" />
+    </e>
+    <e n="Git.Commit.And.Push.Executor">
+      <i c="1" l="1618012908225" />
+    </e>
+    <e n="Git.Revert.In.Log">
+      <i c="1" l="1618011629877" />
+    </e>
+    <e n="Git.Stash">
+      <i c="2" l="1618010476543" />
+    </e>
+    <e n="Git.Uncommit">
+      <i c="1" l="1618010334170" />
+    </e>
+    <e n="Github.Share">
+      <i c="2" l="1618011438322" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1618009818764" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="1" l="1618009197185" />
+    </e>
+    <e n="Replace">
+      <i c="2" l="1618012845253" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1618013177652" />
+    </e>
+    <e n="SaveAll">
+      <i c="4" l="1618009966132" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1618009119768" />
+    </e>
+    <e n="Start.Use.Vcs">
+      <i c="1" l="1618012203574" />
+    </e>
+    <e n="Tree-selectChild">
+      <i c="1" l="1618012578419" />
+    </e>
+    <e n="Vcs.Push">
+      <i c="4" l="1618013383239" />
+    </e>
+    <e n="Vcs.UpdateProject">
+      <i c="3" l="1618010464886" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1618009005479" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1618011032476" />
+    </e>
+    <e n="com.intellij.execution.ui.FragmentedSettingsBuilder$ToggleFragmentAction">
+      <i c="1" l="1618013123446" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="3" l="1618012193500" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="16" l="1618013063380" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="3" l="1618012677622" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1618013064546" />
+    </e>
+    <e n="git4idea.util.GitUntrackedFilesHelper$1">
+      <i c="1" l="1618010431789" />
+    </e>
+    <e n="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorOnlyLayoutChangeAction">
+      <i c="3" l="1618012154551" />
+    </e>
+    <e n="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction">
+      <i c="1" l="1618009770979" />
+    </e>
+  </component>
+</application>
