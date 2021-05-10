@@ -1,36 +1,12 @@
 <application>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.16.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.sdkman/candidates/java/current/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.16.1/bin/node" />
   </component>
   <component name="ProjectPluginTrackerManager">
     <trackers>
       <map>
-        <entry key="1qx6mfJaTlvfx9wH5YG63xKPa4s">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
-        <entry key="1qx78ylL4WZfZjeLxTxE4q6l7ZW">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
-        <entry key="1qx7mac7q52YAZ3rdZSYluNIqlJ">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
-        <entry key="1qx8Ljbp74Nm0kEkdeh6jBsGZug">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
-        <entry key="1qxAoV3jF45ExWZ5qpZEdyi1n9y">
-          <value>
-            <ProjectPluginTracker />
-          </value>
-        </entry>
-        <entry key="1qxD2gVnYPQs9qk6SLT4HSK3Iea">
+        <entry key="1sM7MePNkNqAOqe9MLNkALYw3wS">
           <value>
             <ProjectPluginTracker />
           </value>
@@ -39,39 +15,37 @@
     </trackers>
   </component>
   <component name="PropertiesComponent">
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.627551" />
-    <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="IdeaUltimate.EnableRunTargetsOnce" value="true" />
-    <property name="NonModalCommitPromotionState" value="SHOWN" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-fe2e1095b4b1d72cc1b377adb66275f028b1efb403e292d558fd908aa67f9a38" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-3526f44a72c5827ac667cc064ffe072f49b2dc83211c7bbcb3ba6ef7a079f2ed" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="evlsprt3.211" value="15" />
     <property name="experimentalFeature.run.targets" value="true" />
-    <property name="file.chooser.recent.files" value="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020-11/.gitpod.Dockerfile&#10;/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020-11&#10;/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm&#10;/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020.11" />
-    <property name="fileTypeChangedCounter" value="4" />
-    <property name="fileTypeDetectors" value="com.android.tools.idea.fileTypes.profiler.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
+    <property name="file.chooser.recent.files" value="/workspace/Account-Ledger-Cli-Kotlin-Gradle" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="fileTypeDetectors" value="com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="ide.updates.previous.build.number" value="IU-211.6693.111" />
     <property name="ide.updates.whats.new.shown.for" value="211" />
+    <property name="ignore.vm.options.env.vars" value="true" />
     <property name="installed.kotlin.plugin.version" value="211-1.4.32-release-IJ6693.72" />
+    <property name="kotlin-gradle-user-dirs" value="/workspace/.gradle" />
+    <property name="kotlin.lastUpdateCheck" value="1620671203771" />
     <property name="kotlin.plugin.releaseDate" value="211-1.4.32-release-IJ6693.72:2021-04-01" />
-    <property name="lastSeenTip" value="neue-DiagramShowDiff.html" />
-    <property name="lastTimeTipsWereShown" value="1618009060642" />
-    <property name="last_opened_file_path" value="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020-11" />
+    <property name="lastSeenTip" value="neue-HighlightUsagesInFile.html" />
+    <property name="lastTimeTipsWereShown" value="1620670566125" />
+    <property name="last_opened_file_path" value="/workspace/Account-Ledger-Cli-Kotlin-Gradle" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
+    <property name="new.jvm.backend.notification" value="true" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1618009053466" />
-    <property name="seenTips" value="neue-DiagramShowDiff.html" />
+    <property name="packagesearch.status.updated.ts" value="1620670558104" />
+    <property name="seenTips" value="neue-HighlightUsagesInFile.html" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="4.2.2" />
-  </component>
-  <component name="TerminalCommandHistoryManager">
-    <command-history-files>
-      <command-history-file filename="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-history" project-path="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm" last-access-time="1618010507958" />
-      <command-history-file filename="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020-11-history1" project-path="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-anaconda3-2020-11" last-access-time="1618012256193" />
-    </command-history-files>
   </component>
   <component name="ToolbarSettingsService">
     <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
