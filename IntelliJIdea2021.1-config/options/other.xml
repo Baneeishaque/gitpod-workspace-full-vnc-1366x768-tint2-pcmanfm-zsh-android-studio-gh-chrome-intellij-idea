@@ -11,22 +11,45 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1tPAy9TKGcm3NaFZWwvATkKT7F0">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1tPKRufDMJ3aGZoAVF7fbsICKwV">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1tPKufjQQhTwxr5DAIDsu2UxR84">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
   <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.59599334" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="IdeaUltimate.EnableRunTargetsOnce" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="bash&#10;bas&#10;ba&#10;b&#10;aml" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
-    <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-3526f44a72c5827ac667cc064ffe072f49b2dc83211c7bbcb3ba6ef7a079f2ed" />
+    <property name="MarketplacePluginsSearchHistory" value="eva&#10;ev&#10;e&#10;eval" />
+    <property name="NonModalCommitPromotionState" value="ACCEPTED" />
+    <property name="appcds.runOnSecondStart" value="IU-211.6693.111-fa981f3da18a5b0c24d366dec20c8ff03e7db47e1925e9b9c49209a3f05d85b0" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
-    <property name="evlsprt3.211" value="15" />
+    <property name="evlsprt3.211" value="17" />
     <property name="experimentalFeature.run.targets" value="true" />
-    <property name="file.chooser.recent.files" value="/workspace/Account-Ledger-Cli-Kotlin-Gradle" />
-    <property name="fileTypeChangedCounter" value="3" />
+    <property name="file.chooser.recent.files" value="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea/.gitpod.Dockerfile&#10;/workspace&#10;/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm/.gitpod.Dockerfile&#10;/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm&#10;/workspace/Account-Ledger-Cli-Kotlin-Gradle" />
+    <property name="file.gist.reindex.count" value="1" />
+    <property name="fileTypeChangedCounter" value="5" />
     <property name="fileTypeDetectors" value="com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector" />
+    <property name="got.it.tooltip.changes.view.toolwindow" value="1" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="ide.updates.previous.build.number" value="IU-211.6693.111" />
     <property name="ide.updates.whats.new.shown.for" value="211" />
@@ -35,17 +58,23 @@
     <property name="kotlin-gradle-user-dirs" value="/workspace/.gradle" />
     <property name="kotlin.lastUpdateCheck" value="1620671203771" />
     <property name="kotlin.plugin.releaseDate" value="211-1.4.32-release-IJ6693.72:2021-04-01" />
-    <property name="lastSeenTip" value="neue-HighlightUsagesInFile.html" />
-    <property name="lastTimeTipsWereShown" value="1620670566125" />
-    <property name="last_opened_file_path" value="/workspace/Account-Ledger-Cli-Kotlin-Gradle" />
+    <property name="lastSeenTip" value="neue-SearchForGit.html" />
+    <property name="lastTimeTipsWereShown" value="1622660608568" />
+    <property name="last_opened_file_path" value="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="new.jvm.backend.notification" value="true" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
     <property name="packagesearch.status.updated.ts" value="1620670558104" />
-    <property name="seenTips" value="neue-HighlightUsagesInFile.html" />
+    <property name="seenTips" value="neue-HighlightUsagesInFile.html,neue-SearchForGit.html" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="4.2.2" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm-history" project-path="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm" last-access-time="1622661170781" />
+      <command-history-file filename="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-history" project-path="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea" last-access-time="1622665691603" />
+    </command-history-files>
   </component>
   <component name="ToolbarSettingsService">
     <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />

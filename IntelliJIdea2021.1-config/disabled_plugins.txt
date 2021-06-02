@@ -1,7 +1,6 @@
 AngularJS
 AntSupport
 DevKit
-Docker
 Emma
 GlassFish
 HtmlTools

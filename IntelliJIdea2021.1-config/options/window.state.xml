@@ -6,7 +6,7 @@
     <size key="GridCell.Tab.0.bottom.0.0.1366.625" width="1324" height="138" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="0" width="1366" height="595" extendedState="6" />
+    <frame x="0" y="0" width="1366" height="738" extendedState="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -17,9 +17,18 @@
     </layout>
   </component>
   <component name="WindowStateApplicationService">
-    <state x="467" y="70" width="426" height="479" key="FileChooserDialogImpl" timestamp="1620670557397">
-      <screen x="0" y="0" width="1366" height="595" />
+    <state x="580" y="269" width="198" height="198" key="#Custom_Plugin_Repositories" timestamp="1622660553290">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="580" y="269" width="198" height="198" key="#Custom_Plugin_Repositories/0.0.1366.738" timestamp="1622660553290" />
+    <state x="467" y="87" width="426" height="479" key="FileChooserDialogImpl" timestamp="1622660602107">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="467" y="70" width="426" height="479" key="FileChooserDialogImpl/0.0.1366.595" timestamp="1620670557397" />
+    <state x="467" y="87" key="FileChooserDialogImpl/0.0.1366.738" timestamp="1622660602107" />
+    <state x="690" y="447" width="1380" height="894" key="WELCOME_SCREEN" timestamp="1622665178458">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="690" y="447" width="1380" height="894" key="WELCOME_SCREEN/0.0.1366.738" timestamp="1622665178458" />
   </component>
 </application>

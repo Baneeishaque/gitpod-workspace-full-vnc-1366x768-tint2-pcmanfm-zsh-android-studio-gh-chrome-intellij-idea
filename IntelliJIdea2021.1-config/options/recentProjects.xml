@@ -4,13 +4,49 @@
       <map>
         <entry key="/workspace/Account-Ledger-Cli-Kotlin-Gradle">
           <value>
-            <RecentProjectMetaInfo frameTitle="accountLedgerCli [/workspace/Account-Ledger-Cli-Kotlin-Gradle]" opened="true" projectWorkspaceId="1sM7MePNkNqAOqe9MLNkALYw3wS">
+            <RecentProjectMetaInfo frameTitle="accountLedgerCli [/workspace/Account-Ledger-Cli-Kotlin-Gradle]" projectWorkspaceId="1sM7MePNkNqAOqe9MLNkALYw3wS">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-211.6693.111" />
               <option name="buildTimestamp" value="1617703812014" />
               <frame x="0" y="0" width="1366" height="595" extendedState="6" />
               <option name="productionCode" value="IU" />
               <option name="projectOpenTimestamp" value="1620670559847" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm [/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea-pycharm]" projectWorkspaceId="1tPAy9TKGcm3NaFZWwvATkKT7F0">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703828652" />
+              <frame x="0" y="0" width="1366" height="738" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622665184575" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea [/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea]" projectWorkspaceId="1tPKufjQQhTwxr5DAIDsu2UxR84">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703828652" />
+              <frame x="0" y="0" width="1366" height="738" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622665510193" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/Baneeishaque/gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11">
+          <value>
+            <RecentProjectMetaInfo frameTitle="gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11 [/workspace/Baneeishaque/gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11]" opened="true" projectWorkspaceId="1tPKRufDMJ3aGZoAVF7fbsICKwV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703828652" />
+              <frame x="0" y="0" width="1366" height="738" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622667363213" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

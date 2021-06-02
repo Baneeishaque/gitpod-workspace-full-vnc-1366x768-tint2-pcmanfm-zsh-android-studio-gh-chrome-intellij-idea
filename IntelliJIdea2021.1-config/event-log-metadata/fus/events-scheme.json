@@ -109,6 +109,18 @@
       }
     }
   }, {
+    "id" : "analysis.pwa",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:index.metadata|index.state|index.tasks}" ],
+      "event_data" : {
+        "size_bytes" : [ "{regexp#integer}" ]
+      }
+    }
+  }, {
     "id" : "appearance.file.colors",
     "builds" : [ ],
     "versions" : [ {
@@ -211,7 +223,6 @@
         "target_driver_type" : [ "{enum#__driver_type}" ]
       },
       "enums" : {
-        "__connection_driver_types" : [ "s3", "hdfs", "gcs", "sftp", "azure", "linode", "minio", "ceph", "do_spaces" ],
         "__driver_type" : [ "s3", "local", "hdfs", "gcs", "sftp", "azure", "linode", "minio", "ceph", "do_spaces" ],
         "__event_id" : [ "action.copy.file.path", "action.delete", "action.mkdir", "action.move", "action.refresh", "action.rename", "action.save.to.disk", "action.show.in.file.manager", "connection.refreshed", "copy.paste", "drag.and.drop", "file.viewer.opened", "panel.refreshed", "rows.expanded", "action.show.file.info", "action.upload.from.disk" ],
         "__file_extensions" : [ "csv", "no_extension", "parquet", "orc", "tsv", "json", "sequence", "avro", "unknown" ],
@@ -604,7 +615,6 @@
       },
       "enums" : {
         "_" : [ "hasMavenProject", "checksumPolicy", "failureBehavior", "outputLevel", "pluginUpdatePolicy", "loggingLevel", "alwaysUpdateSnapshots", "nonRecursive", "printErrorStackTraces", "usePluginRegistry", "workOffline", "mavenVersion", "localRepository", "userSettingsFile", "lookForNested", "dedicatedModuleDir", "storeProjectFilesExternally", "importAutomatically", "autoDetectCompiler", "createModulesForAggregators", "createModuleGroups", "keepSourceFolders", "excludeTargetFolder", "useMavenOutput", "generatedSourcesFolder", "updateFoldersOnImportPhase", "downloadDocsAutomatically", "downloadSourcesAutomatically", "customDependencyTypes", "jdkTypeForImporter", "jdkVersionForImporter", "hasVmOptionsForImporter", "hasIgnoredFiles", "hasIgnoredPatterns", "delegateBuildRun", "runMavenInBackground", "hasRunnerVmOptions", "hasRunnerEnvVariables", "passParentEnv", "skipTests", "hasRunnerMavenProperties", "runnerJreType", "runnerJreVersion" ],
-        "__event_id" : [ "alwaysUpdateSnapshots", "autoDetectCompiler", "checksumPolicy", "createModuleGroups", "createModulesForAggregators", "customDependencyTypes", "dedicatedModuleDir", "delegateBuildRun", "downloadDocsAutomatically", "downloadSourcesAutomatically", "excludeTargetFolder", "failureBehavior", "generatedSourcesFolder", "hasIgnoredFiles", "hasIgnoredPatterns", "hasMavenProject", "hasRunnerEnvVariables", "hasRunnerMavenProperties", "hasRunnerVmOptions", "hasVmOptionsForImporter", "jdkTypeForImporter", "jdkVersionForImporter", "keepSourceFolders", "localRepository", "loggingLevel", "lookForNested", "mavenVersion", "nonRecursive", "outputLevel", "passParentEnv", "pluginUpdatePolicy", "printErrorStackTraces", "runMavenInBackground", "runnerJreType", "runnerJreVersion", "skipTests", "storeProjectFilesExternally", "updateFoldersOnImportPhase", "useMavenOutput", "usePluginRegistry", "userSettingsFile", "workOffline" ],
         "setting" : [ "alwaysUpdateSnapshots", "autoDetectCompiler", "createModuleGroups", "createModulesForAggregators", "customDependencyTypes", "dedicatedModuleDir", "delegateBuildRun", "downloadDocsAutomatically", "downloadSourcesAutomatically", "excludeTargetFolder", "hasIgnoredFiles", "hasIgnoredPatterns", "hasMavenProject", "hasRunnerEnvVariables", "hasRunnerMavenProperties", "hasRunnerVmOptions", "hasVmOptionsForImporter", "importAutomatically", "keepSourceFolders", "localRepository", "loggingLevel", "lookForNested", "nonRecursive", "outputLevel", "passParentEnv", "printErrorStackTraces", "runMavenInBackground", "skipTests", "storeProjectFilesExternally", "useMavenOutput", "usePluginRegistry", "userSettingsFile", "workOffline" ],
         "value_set" : [ "fail", "not_set", "warn", "at_end", "fast", "never", "debug", "error", "fatal", "info", "default", "do_not_update", "update", "unknown", "autodetect", "generated_source_folder", "ignore", "subfolder", "generate-resources", "generate-sources", "generate-test-resources", "process-resources", "process-sources", "process-test-resources", "#JAVA_INTERNAL", "#JAVA_HOME", "custom", "#USE_PROJECT_JDK" ]
       }
@@ -799,7 +809,7 @@
         "telephonyEnabled" : [ "{enum#boolean}" ]
       },
       "enums" : {
-        "__event_id" : [ "connected", "finished", "onCircleLeftClickStart", "onCircleLeftClickStop", "onCircleRightClick", "onEditorFollowingLabelResume", "onEditorFollowingLabelStop", "onEditorFullSyncLabelStop", "onReconnection", "sessionCreated", "sessionTerminated", "onReconnectionFailed", "sessionFinished", "sessionStarted", "sessionExpired", "onConnectionFailed" ]
+        "__event_id" : [ "connected", "finished", "onCircleLeftClickStart", "onCircleLeftClickStop", "onCircleRightClick", "onEditorFollowingLabelResume", "onEditorFollowingLabelStop", "onEditorFullSyncLabelStop", "onReconnection", "sessionCreated", "sessionTerminated", "onReconnectionFailed", "sessionFinished", "sessionStarted", "sessionExpired", "onConnectionFailed", "thin.finished", "thin.connected" ]
       }
     }
   }, {
@@ -1198,18 +1208,18 @@
         "type" : [ "{enum#edu_item_type}", "{enum#link_type}" ]
       },
       "enums" : {
-        "_" : [ "navigate.to.task", "edu.project.created", "edu.project.opened", "study.item.created", "link.clicked", "authorization", "show.full.output", "peek.solution", "leave.feedback", "revert.task", "review.stage.topics", "check.task", "hint", "create.course.preview", "preview.task.file", "create.course.archive", "post.course", "synchronize.course", "import.course", "codeforces.submit.solution", "twitter.dialog.shown", "twitter.achievement.posted", "open.task", "select.tab.course.selection.view", "open.course.selection.view" ],
+        "_" : [ "navigate.to.task", "edu.project.created", "edu.project.opened", "study.item.created", "link.clicked", "authorization", "show.full.output", "peek.solution", "leave.feedback", "revert.task", "review.stage.topics", "check.task", "hint", "create.course.preview", "preview.task.file", "create.course.archive", "post.course", "synchronize.course", "import.course", "codeforces.submit.solution", "twitter.dialog.shown", "open.task", "select.tab.course.selection.view", "open.course.selection.view" ],
         "authorization_event" : [ "log_in", "log_out" ],
         "authorization_place" : [ "settings", "widget", "start_course_dialog", "submissions_tab" ],
         "course_selection_place" : [ "welcome_screen", "main_menu", "unknown", "find_action" ],
         "edu_check_status" : [ "Unchecked", "Solved", "Failed", "unchecked", "solved", "failed" ],
-        "edu_item_type" : [ "CheckiO", "PyCharm", "Coursera", "Hyperskill", "Marketplace", "section", "framework", "lesson", "edu", "ide", "choice", "code", "output", "theory", "Codeforces" ],
+        "edu_item_type" : [ "CheckiO", "PyCharm", "Coursera", "Hyperskill", "Marketplace", "section", "framework", "lesson", "edu", "ide", "choice", "code", "output", "theory", "Codeforces", "Stepik" ],
         "edu_language" : [ "JAVA", "kotlin", "Python", "Scala", "JavaScript", "Rust", "ObjectiveC", "go" ],
         "edu_mode" : [ "Study", "Course_Creator" ],
         "edu_platform" : [ "Hyperskill", "Stepik", "Js_CheckiO", "Py_CheckiO" ],
         "edu_tab" : [ "marketplace", "jba", "checkio", "codeforces", "coursera", "community", "stepik", "my_courses", "unknown" ],
         "hint_event" : [ "expanded", "collapsed" ],
-        "link_type" : [ "in_course", "stepik", "external", "psi", "codeforces" ],
+        "link_type" : [ "in_course", "stepik", "external", "psi", "codeforces", "jba" ],
         "navigate_to_task_place" : [ "check_all_notification", "task_description_toolbar", "check_panel", "unresolved_dependency_notification" ],
         "post_course_event" : [ "upload", "update" ],
         "synchronization_place" : [ "widget", "project_generation", "project_reopen" ]
@@ -2091,19 +2101,28 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{util#tool}", "{enum:not.default.state|setting.non.default.state}" ],
+      "event_id" : [ "{util#tool}", "{enum#__event_id}" ],
       "event_data" : {
+        "amount" : [ "{regexp#integer}" ],
+        "default" : [ "{enum#boolean}" ],
         "enabled" : [ "{enum#boolean}" ],
         "inspection_enabled" : [ "{enum#boolean}" ],
         "inspection_id" : [ "{util#tool}" ],
         "lang" : [ "{util#lang}" ],
+        "locked" : [ "{enum#boolean}" ],
         "option_index" : [ "{regexp#integer}" ],
         "option_name" : [ "{util#plugin_info}" ],
         "option_type" : [ "{enum:integer|boolean}" ],
         "option_value" : [ "{enum#boolean}", "{regexp#integer}" ],
         "plugin" : [ "{util#plugin}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
-        "plugin_version" : [ "{util#plugin_version}" ]
+        "plugin_version" : [ "{util#plugin_version}" ],
+        "project_level" : [ "{enum#boolean}" ],
+        "scope" : [ "{enum:All|All Changed Files|Generated Files|Project Files and Vendor|Non-Project Files|Project Non-Source Files|Open Files|Project Files|Production|Scratches and Consoles|Project Source Files|Tests}", "{enum:custom}" ],
+        "severity" : [ "{enum:INFORMATION|SERVER PROBLEM|INFO|WEAK WARNING|WARNING|ERROR}", "{enum:custom}", "{enum:TYPO}" ]
+      },
+      "enums" : {
+        "__event_id" : [ "not.default.state", "setting.non.default.state", "used.profile", "profiles", "not.default.scope.and.severity" ]
       }
     }
   }, {
@@ -2275,19 +2294,31 @@
       }
     }
   }, {
+    "id" : "java.smart.enter.fixer",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:fixer_used}" ],
+      "event_data" : {
+        "fixer_used" : [ "{enum:LiteralFixer|MethodCallFixer|IfConditionFixer|ForStatementFixer|TernaryColonFixer|WhileConditionFixer|CatchDeclarationFixer|SwitchExpressionFixer|SwitchLabelColonFixer|DoWhileConditionFixer|BlockBraceFixer|MissingIfBranchesFixer|MissingWhileBodyFixer|MissingTryBodyFixer|MissingSwitchBodyFixer|MissingCatchBodyFixer|MissingSynchronizedBodyFixer|MissingForBodyFixer|MissingForeachBodyFixer|ParameterListFixer|MissingCommaFixer|MissingMethodBodyFixer|MissingClassBodyFixer|MissingReturnExpressionFixer|MissingThrowExpressionFixer|ParenthesizedFixer|SemicolonFixer|MissingArrayInitializerBraceFixer|MissingArrayConstructorBracketFixer|EnumFieldFixer}" ]
+      }
+    }
+  }, {
     "id" : "javaLibraryJars",
     "builds" : [ ],
     "versions" : [ {
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum:spring-integration|spring-integration-amqp|spring-amqp|spring-osgi|spring-data-commons|spring-data-jpa|spring-data-mongo|spring-data-neo4j|spring-data-solr|spring-data-hadoop|spring-data-jdbc-ext|spring-core|spring-boot|spring-ws|spring-mvc|spring-security|spring-batch|spring-security-oauth2|spring-security-oauth|apache-tiles|thymeleaf|velocity|freemarker|springOldJavaConfig|spring-cloud-commons|gorm|groovy|grails}", "{enum:micronaut|akka-java|vertx|spark-java|dropwizard|helidon|quarkus|ok3-http|apache-http|unirest|retrofit|spring-cloud|spring-webflux|reactor|rx-java|guice|drools|ktor|cucumber|selenium|selenide|serenity|appium|allure2|allure1|jdi-light|htmlelements|atlas|geb|webtau-http|webtau-browser|jbehave|robotframework|restassured|karate|citrus}", "{enum:eureka|consul|zookeeper|zuul|hystrix|apache-dubbo|grpc|apache-thrift|javalin|armeria|mybatis|jooq|junit4|junit5|testng|kafka-client|activemq-client|rabbitmq-client|amazon-sqs|tapestry5|gwt|struts2|jsf|vaadin-flow|openfeign|jhipster|apache-spark|apache-flink|fluentlenium|testcontainers|blade}", "{enum:javax-cdi|jakarta-cdi|javax-jms|jakarta-jms|javax-jpa|jakarta-jpa|javax-rs|jakarta-rs|r2dbc|osgi|microprofile-config|kotlin|kodein|http4k|rxkotlin}", "{enum:scala|play2|lagom-java|lagom-scala|kotless|spek|koin|gauge-java|apache-deltaspike|apache-deltaspike-data|graphql-java|hexagonkt|jdbi|jooby|optaplanner|spring-webflow}", "{enum:flowable-bpm|activiti-bpm|camunda-bpm|jbpm|apache-ignite|hazelcast|hazelcast-jet|coherence|debezium|streamex|json-path|hibernate|eclipselink-jpa|arquillian|flyway|liquibase|jodd-db|querydsl|apache-camel|rsocket-java|google-http-java-client|google-cloud-pubsub|springfox|apache-rocketmq|opentracing|zipkin2|jaeger|lombok}", "{enum:weld|jakarta-jsf|javax-ejb|jakarta-ejb|javax-websocket|jakarta-websocket|javax-ws|jakarta-ws|javax-batch|jakarta-batch|javax-validation|jakarta-validation|kotest|datanucleus-jpa|openjpa|wiremock|easymock|jmockit|mockito|spock|hibernate-validator|apache-bval|spring-kafka|spring-rabbitmq|spring-session|jackson|gson|micrometer|mapstruct|swagger-v2|swagger-v3|apache-shiro|arrowkt|scalatest|jetbrains-annotations|playwright-java}", "{enum:kotlinx-coroutines|kotlinx-serialization|exposed|ktorm|tornadofx|javafx|mockserver}", "{enum:scalaz|scalamock|scalacheck|specs2|utest|munit|zio-test|akka-http|netty|scalatra|unfiltered|sttp|http4s|twitter-util|akka-actor|shapeless|finagle|cats|breeze|slick|fs2|monix|zio|kotlinx-datetime}", "{enum:used.library}" ],
+      "event_id" : [ "{enum#libraries}", "{enum:used.library}" ],
       "event_data" : {
-        "library" : [ "{enum#__library}" ],
+        "library" : [ "{enum#libraries}" ],
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__library" : [ "spring-integration", "spring-integration-amqp", "spring-amqp", "spring-osgi", "spring-data-commons", "spring-data-jpa", "spring-data-mongo", "spring-data-neo4j", "spring-data-solr", "spring-data-hadoop", "spring-data-jdbc-ext", "spring-core", "spring-boot", "spring-ws", "spring-mvc", "spring-security", "spring-batch", "spring-security-oauth2", "spring-security-oauth", "spring-webflow", "apache-tiles", "thymeleaf", "velocity", "freemarker", "springOldJavaConfig", "spring-cloud-commons", "gorm", "groovy", "grails", "micronaut", "akka-java", "vertx", "spark-java", "dropwizard", "helidon", "quarkus", "ok3-http", "apache-http", "unirest", "retrofit", "spring-cloud", "spring-webflux", "reactor", "rx-java", "guice", "drools", "ktor", "cucumber", "selenium", "selenide", "serenity", "appium", "allure2", "allure1", "jdi-light", "htmlelements", "atlas", "geb", "webtau-http", "webtau-browser", "jbehave", "robotframework", "restassured", "karate", "citrus", "eureka", "consul", "zookeeper", "zuul", "hystrix", "apache-dubbo", "grpc", "apache-thrift", "javalin", "armeria", "mybatis", "jooq", "junit4", "junit5", "testng", "kafka-client", "activemq-client", "rabbitmq-client", "amazon-sqs", "tapestry5", "gwt", "struts2", "jsf", "vaadin-flow", "openfeign", "jhipster", "apache-spark", "apache-flink", "fluentlenium", "testcontainers", "blade", "javax-cdi", "jakarta-cdi", "javax-jms", "jakarta-jms", "javax-jpa", "jakarta-jpa", "javax-rs", "jakarta-rs", "r2dbc", "osgi", "microprofile-config", "kotlin", "kodein", "http4k", "rxkotlin", "scala", "play2", "lagom-java", "lagom-scala", "kotless", "spek", "koin", "gauge-java", "apache-deltaspike", "apache-deltaspike-data", "graphql-java", "hexagonkt", "jdbi", "jooby", "optaplanner", "flowable-bpm", "activiti-bpm", "camunda-bpm", "jbpm", "apache-ignite", "hazelcast", "hazelcast-jet", "coherence", "debezium", "streamex", "json-path", "hibernate", "eclipselink-jpa", "arquillian", "flyway", "liquibase", "jodd-db", "querydsl", "apache-camel", "rsocket-java", "google-http-java-client", "google-cloud-pubsub", "springfox", "apache-rocketmq", "opentracing", "zipkin2", "jaeger", "lombok", "weld", "jakarta-jsf", "javax-ejb", "jakarta-ejb", "javax-websocket", "jakarta-websocket", "javax-ws", "jakarta-ws", "javax-batch", "jakarta-batch", "javax-validation", "jakarta-validation", "kotest", "datanucleus-jpa", "openjpa", "wiremock", "easymock", "jmockit", "mockito", "spock", "hibernate-validator", "apache-bval", "spring-kafka", "spring-rabbitmq", "spring-session", "jackson", "gson", "micrometer", "mapstruct", "swagger-v2", "swagger-v3", "apache-shiro", "arrowkt", "scalatest", "jetbrains-annotations", "playwright-java", "kotlinx-coroutines", "kotlinx-serialization", "exposed", "ktorm", "tornadofx", "javafx", "mockserver", "scalaz", "scalamock", "scalacheck", "specs2", "utest", "munit", "zio-test", "akka-http", "netty", "scalatra", "unfiltered", "sttp", "http4s", "twitter-util", "akka-actor", "shapeless", "finagle", "cats", "breeze", "slick", "fs2", "monix", "zio", "kotlinx-datetime" ]
+        "libraries" : [ "spring-integration", "spring-integration-amqp", "spring-amqp", "spring-osgi", "spring-data-commons", "spring-data-jpa", "spring-data-mongo", "spring-data-neo4j", "spring-data-solr", "spring-data-hadoop", "spring-data-jdbc-ext", "spring-core", "spring-boot", "spring-ws", "spring-mvc", "spring-security", "spring-batch", "spring-security-oauth2", "spring-security-oauth", "spring-webflow", "apache-tiles", "thymeleaf", "velocity", "freemarker", "springOldJavaConfig", "spring-cloud-commons", "gorm", "groovy", "grails", "micronaut", "akka-java", "vertx", "spark-java", "dropwizard", "helidon", "quarkus", "ok3-http", "apache-http", "unirest", "retrofit", "spring-cloud", "spring-webflux", "reactor", "rx-java", "guice", "drools", "ktor", "cucumber", "selenium", "selenide", "serenity", "appium", "allure2", "allure1", "jdi-light", "htmlelements", "atlas", "geb", "webtau-http", "webtau-browser", "jbehave", "robotframework", "restassured", "karate", "citrus", "eureka", "consul", "zookeeper", "zuul", "hystrix", "apache-dubbo", "grpc", "apache-thrift", "javalin", "armeria", "mybatis", "jooq", "junit4", "junit5", "testng", "kafka-client", "activemq-client", "rabbitmq-client", "amazon-sqs", "tapestry5", "gwt", "struts2", "jsf", "vaadin-flow", "openfeign", "jhipster", "apache-spark", "apache-flink", "fluentlenium", "testcontainers", "blade", "javax-cdi", "jakarta-cdi", "javax-jms", "jakarta-jms", "javax-jpa", "jakarta-jpa", "javax-rs", "jakarta-rs", "r2dbc", "osgi", "microprofile-config", "kotlin", "kodein", "http4k", "rxkotlin", "scala", "play2", "lagom-java", "lagom-scala", "kotless", "spek", "koin", "gauge-java", "apache-deltaspike", "apache-deltaspike-data", "graphql-java", "hexagonkt", "jdbi", "jooby", "optaplanner", "flowable-bpm", "activiti-bpm", "camunda-bpm", "jbpm", "apache-ignite", "hazelcast", "hazelcast-jet", "coherence", "debezium", "streamex", "json-path", "hibernate", "eclipselink-jpa", "arquillian", "flyway", "liquibase", "jodd-db", "querydsl", "apache-camel", "rsocket-java", "google-http-java-client", "google-cloud-pubsub", "springfox", "apache-rocketmq", "opentracing", "zipkin2", "jaeger", "lombok", "weld", "jakarta-jsf", "javax-ejb", "jakarta-ejb", "javax-websocket", "jakarta-websocket", "javax-ws", "jakarta-ws", "javax-batch", "jakarta-batch", "javax-validation", "jakarta-validation", "kotest", "datanucleus-jpa", "openjpa", "wiremock", "easymock", "jmockit", "mockito", "spock", "hibernate-validator", "apache-bval", "spring-kafka", "spring-rabbitmq", "spring-session", "jackson", "gson", "micrometer", "mapstruct", "swagger-v2", "swagger-v3", "apache-shiro", "arrowkt", "scalatest", "jetbrains-annotations", "playwright-java", "kotlinx-coroutines", "kotlinx-serialization", "exposed", "ktorm", "tornadofx", "javafx", "mockserver", "scalaz", "scalamock", "scalacheck", "specs2", "utest", "munit", "zio-test", "akka-http", "netty", "scalatra", "unfiltered", "sttp", "http4s", "twitter-util", "akka-actor", "shapeless", "finagle", "cats", "breeze", "slick", "fs2", "monix", "zio", "kotlinx-datetime" ]
       }
     }
   }, {
@@ -2416,7 +2447,7 @@
       "from" : "1"
     } ],
     "rules" : {
-      "event_id" : [ "{enum#keymap}", "Custom_(Based_on_{enum#keymaps}_keymap)", "Custom_(Based_on_{enum#keymaps})", "{enum:ide.keymap}" ],
+      "event_id" : [ "{enum#keymaps}", "Custom_(Based_on_{enum#keymaps}_keymap)", "Custom_(Based_on_{enum#keymaps})", "{enum:ide.keymap}" ],
       "event_data" : {
         "based_on" : [ "{enum#keymaps}" ],
         "keymap_name" : [ "{enum#keymaps}" ]
@@ -2577,7 +2608,7 @@
       "event_id" : [ "{enum:settings}" ],
       "event_data" : {
         "defaults" : [ "{enum:KOTLIN_OFFICIAL|KOTLIN_OLD_DEFAULTS|ide_defaults}" ],
-        "kind" : [ "{enum#__kind}", "{enum:PROJECT_OFFICIAL_KOTLIN_WITH_CUSTOM|IDEA_OBSOLETE_KOTLIN_WITH_CUSTOM|PROJECT_OFFICIAL_KOTLIN}" ],
+        "kind" : [ "{enum#__kind}", "{enum:PROJECT_OFFICIAL_KOTLIN_WITH_CUSTOM|IDEA_OBSOLETE_KOTLIN_WITH_CUSTOM|PROJECT_OFFICIAL_KOTLIN}", "{enum:PROJECT_WITH_BROKEN_OFFICIAL_KOTLIN|IDEA_WITH_BROKEN_OBSOLETE_KOTLIN|PROJECT_WITH_BROKEN_OBSOLETE_KOTLIN|IDEA_WITH_BROKEN_OFFICIAL_KOTLIN}" ],
         "plugin" : [ "{util#plugin}" ],
         "pluginVersion" : [ "{regexp#kotlin_version}", "{util#plugin_version}" ],
         "plugin_type" : [ "{util#plugin_type}" ],
@@ -2840,6 +2871,20 @@
       "event_id" : [ "{enum#_}" ],
       "enums" : {
         "_" : [ "inspection.remove.duplicate.envvar", "completion.kind", "completion.label.key", "navigation.gutter.label.container" ]
+      }
+    }
+  }, {
+    "id" : "leftover.dirs",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:cleanup.complete|scan.scheduled|scan.started}" ],
+      "event_data" : {
+        "delay_days" : [ "{regexp#integer}" ],
+        "groups" : [ "{regexp#integer}" ],
+        "total_mb" : [ "{regexp#integer}" ]
       }
     }
   }, {
@@ -4106,6 +4151,9 @@
       "event_id" : [ "{enum:open.in.editor.saved|open.in.editor.shown}" ],
       "event_data" : {
         "class_name" : [ "{util#class_name}" ],
+        "plugin" : [ "{util#plugin}" ],
+        "plugin_type" : [ "{util#plugin_type}" ],
+        "plugin_version" : [ "{util#plugin_version}" ],
         "selected" : [ "{enum#boolean}" ]
       }
     }
@@ -4375,12 +4423,12 @@
         "id" : [ "{util#run_config_id}" ],
         "input_event" : [ "{util#shortcut}" ],
         "option_id" : [ "{enum:before.launch.editSettings|before.launch.openToolWindow|beforeRunTasks|commandLineParameters|coverage|doNotBuildBeforeRun|environmentVariables|jrePath|log.monitor|mainClass|module.classpath|redirectInput|runParallel|shorten.command.line|target.project.path|vmParameters|workingDirectory|count|junit.test.kind|repeat|testScope|maven.params.workingDir|maven.params.goals|maven.params.profiles|maven.params.resolveToWorkspace|maven.general.useProjectSettings|maven.general.workOffline|maven.general.produceExceptionErrorMessages|maven.general.usePluginRegistry|maven.general.recursive|maven.general.alwaysUpdateSnapshots|maven.general.threadsEditor|maven.general.outputLevel|maven.general.checksumPolicy|maven.general.failPolicy|maven.general.showDialogWithAdvancedSettings|maven.general.mavenHome|maven.general.settingsFileOverride.checkbox|maven.general.settingsFileOverride.text|maven.general.localRepoOverride.checkbox|maven.general.localRepoOverride.text|maven.runner.useProjectSettings|maven.runner.delegateToMaven|maven.runner.runInBackground|maven.runner.vmParameters|maven.runner.envVariables|maven.runner.jdk|maven.runner.targetJdk|maven.runner.skipTests|maven.runner.properties|Dump_file_path|Exe_path|Program_arguments|Working_directory|Environment_variables|Runtime_arguments|Use_Mono_runtime|Use_external_console|Project|Target_framework|Launch_profile|Open_browser|Application_URL|Launch_URL|IIS_Express_Certificate|Hosting_model|Generate_applicationhost.config|Show_IIS_Express_output|Send_debug_request|Additional_IIS_Express_arguments|Static_method|URL|Session_name|Arguments|Solution_Configuration|Executable_file|Default_arguments|Optional_arguments}" ],
+        "place" : [ "{util#place}" ],
         "projectSettingsAvailable" : [ "{enum#boolean}" ],
         "useProjectSettings" : [ "{enum#boolean}" ]
       },
       "enums" : {
-        "__event_id" : [ "modify.run.option", "remove.run.option", "add", "remove", "hints.shown", "option.navigate" ],
-        "__option_id" : [ "maven.general.useProjectSettings", "maven.general.alwaysUpdateSnapshots", "maven.runner.useProjectSettings", "maven.runner.vmParameters", "maven.runner.envVariables", "maven.runner.jdk", "maven.general.settingsFileOverride.checkbox", "maven.general.usePluginRegistry", "maven.params.resolveToWorkspace", "maven.general.mavenHome", "maven.general.localRepoOverride.checkbox", "maven.params.goals", "maven.general.recursive", "maven.runner.delegateToMaven", "maven.general.produceExceptionErrorMessages", "maven.runner.targetJdk", "maven.general.threadsEditor", "maven.runner.properties", "maven.general.checksumPolicy", "maven.general.localRepoOverride.text", "maven.general.outputLevel", "maven.params.workingDir", "maven.general.showDialogWithAdvancedSettings", "maven.params.profiles", "maven.general.settingsFileOverride.text", "maven.runner.runInBackground", "maven.general.failPolicy", "maven.general.workOffline", "maven.runner.skipTests", "Application_URL", "Open_browser", "Send_debug_request", "Use_Mono_runtime", "Launch_URL", "Optional_arguments", "URL", "Environment_variables", "Additional_IIS_Express_arguments", "Session_name", "Dump_file_path", "Executable_file", "Program_arguments", "Working_directory", "Arguments", "Runtime_arguments", "Show_IIS_Express_output", "Hosting_model", "Solution_Configuration", "Project", "Target_framework", "Use_external_console", "Generate_applicationhost.config", "Static_method", "Exe_path", "IIS_Express_Certificate", "Launch_profile", "Default_arguments" ]
+        "__event_id" : [ "modify.run.option", "remove.run.option", "add", "remove", "hints.shown", "option.navigate" ]
       }
     }
   }, {
@@ -4410,6 +4458,46 @@
       "event_data" : {
         "step_number" : [ "{regexp#integer}" ],
         "type" : [ "{util#run_target}" ]
+      }
+    }
+  }, {
+    "id" : "rust.project",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:cargo_projects|compile_time_targets|packages}" ],
+      "event_data" : {
+        "build_script_dependency" : [ "{regexp#count}" ],
+        "build_script_workspace" : [ "{regexp#count}" ],
+        "count" : [ "{regexp#count}" ],
+        "dependency" : [ "{regexp#count}" ],
+        "direct_dependency" : [ "{regexp#count}" ],
+        "proc_macro_dependency" : [ "{regexp#count}" ],
+        "proc_macro_workspace" : [ "{regexp#count}" ],
+        "workspace" : [ "{regexp#count}" ]
+      }
+    }
+  }, {
+    "id" : "rust.toolchain",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:compiler|rustup|type}" ],
+      "event_data" : {
+        "channel" : [ "{enum#channel}" ],
+        "host_target" : [ "{enum#host_target}" ],
+        "type" : [ "{enum#type}" ],
+        "used" : [ "{enum#boolean}" ],
+        "version" : [ "{regexp#version}" ]
+      },
+      "enums" : {
+        "channel" : [ "stable", "beta", "nightly", "dev" ],
+        "host_target" : [ "i686-pc-windows-gnu", "i686-pc-windows-msvc", "i686-unknown-linux-gnu", "x86_64-apple-darwin", "x86_64-pc-windows-gnu", "x86_64-pc-windows-msvc", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu", "aarch64-apple-darwin", "aarch64-pc-windows-msvc" ],
+        "type" : [ "local", "wsl", "none", "other" ]
       }
     }
   }, {
@@ -5343,6 +5431,7 @@
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "changesDelta" : [ "{regexp#integer}" ],
+        "clone_dialog_extension" : [ "{util#class_name}", "{enum:org.jetbrains.plugins.github.ui.cloneDialog.GHECloneDialogExtensionComponent|org.jetbrains.plugins.github.ui.cloneDialog.GHCloneDialogExtensionComponent|com.intellij.util.ui.cloneDialog.RepositoryUrlCloneDialogExtension.RepositoryUrlMainExtensionComponent|com.intellij.space.vcs.clone.SpaceCloneComponent}" ],
         "duration_ms" : [ "{regexp#integer}" ],
         "enabled" : [ "{enum#boolean}" ],
         "ide_activity_id" : [ "{regexp#integer}" ],
@@ -5350,7 +5439,7 @@
         "wasUpdatingBefore" : [ "{enum#boolean}" ]
       },
       "enums" : {
-        "__event_id" : [ "update.started", "update.finished", "commit.started", "commit.finished", "fetch.started", "fetch.finished", "non.modal.commit.state.changed", "non.modal.commit.promotion.shown", "non.modal.commit.promotion.accepted", "non.modal.commit.promotion.rejected", "changes.view.refresh" ]
+        "__event_id" : [ "update.started", "update.finished", "commit.started", "commit.finished", "fetch.started", "fetch.finished", "non.modal.commit.state.changed", "non.modal.commit.promotion.shown", "non.modal.commit.promotion.accepted", "non.modal.commit.promotion.rejected", "changes.view.refresh", "cloned.project.opened", "clone.invoked" ]
       }
     }
   }, {
@@ -5779,5 +5868,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "1838"
+  "version" : "1870"
 }
