@@ -40,13 +40,46 @@
         </entry>
         <entry key="/workspace/Baneeishaque/gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11">
           <value>
-            <RecentProjectMetaInfo frameTitle="gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11 [/workspace/Baneeishaque/gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11]" opened="true" projectWorkspaceId="1tPKRufDMJ3aGZoAVF7fbsICKwV">
+            <RecentProjectMetaInfo frameTitle="gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11 [/workspace/Baneeishaque/gitpod-full-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-idea-pycharm-anaconda3-2020-11]" projectWorkspaceId="1tPKRufDMJ3aGZoAVF7fbsICKwV">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-211.6693.111" />
               <option name="buildTimestamp" value="1617703828652" />
               <frame x="0" y="0" width="1366" height="738" extendedState="6" />
               <option name="productionCode" value="IU" />
               <option name="projectOpenTimestamp" value="1622667363213" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1tQdIpTYYOafKzMMTXrkFZhcB5w">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703836686" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622709598499" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/gp-vnc-pcman-zsh-as-gh-chrome-idea-pycharm-conda3-hb-scrcpy-r-zilla-gram-matlab-mysql-storm-1366x768">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1tQfq7NBbCs9HKuMf7MW0Fr2r22">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703836686" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622709598499" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/workspace/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1tQmHOPUJx80WMdkQpBKhp1gDb6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.6693.111" />
+              <option name="buildTimestamp" value="1617703836686" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1622709598499" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

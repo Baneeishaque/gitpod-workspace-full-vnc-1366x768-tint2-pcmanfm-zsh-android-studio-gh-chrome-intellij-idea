@@ -1,0 +1,3 @@
+<application>
+  <component name="GfmASettings" useGitHubMarkdownAPI="true" githubAccessToken="" connectionTimeout="2000" socketTimeout="2000" useFullWidthRendering="false" showActiveParser="true" />
+</application>

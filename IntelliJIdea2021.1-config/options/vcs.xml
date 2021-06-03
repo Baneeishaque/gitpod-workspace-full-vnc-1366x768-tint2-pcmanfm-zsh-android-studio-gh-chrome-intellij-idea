@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/workspace" />

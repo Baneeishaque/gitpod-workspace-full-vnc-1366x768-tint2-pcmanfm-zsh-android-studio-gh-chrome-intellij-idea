@@ -341,6 +341,7 @@
     <jdk version="2">
       <name value="Kotlin SDK" />
       <type value="KotlinSDK" />
+      <version value="1.4.32-release-371" />
       <homePath value="$KOTLIN_BUNDLED$" />
       <roots>
         <annotationsPath>
