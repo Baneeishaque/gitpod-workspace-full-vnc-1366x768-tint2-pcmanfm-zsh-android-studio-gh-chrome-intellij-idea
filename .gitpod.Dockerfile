@@ -6,8 +6,8 @@ ARG intellijIdeaDownloadUrl="https://download.jetbrains.com/idea/ideaIU-2021.1.2
 ARG intellijIdeaInstallationFile="ideaIU-2021.1.2.tar.gz"
 
 RUN cd $HOME \
- && wget $intellijIdeaDownloadUrl | tee -a /tmp/wget-intellijIdea.log \
- && sudo tar -xvf $intellijIdeaInstallationFile -C /usr/local/ | tee -a /tmp/tar-intellijIdea.log\
+ && wget $intellijIdeaDownloadUrl \
+ && sudo tar -xvf $intellijIdeaInstallationFile -C /usr/local/ \
  && rm $intellijIdeaInstallationFile
 
 RUN mkdir -p ~/.config/JetBrains/IntelliJIdea2021.1 \
