@@ -15,6 +15,6 @@
 ### Base Image : [baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome](https://hub.docker.com/repository/docker/baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome)  
 
 ## Additional Tools
-### &nbsp;&nbsp; - IntelliJ IDEA : 2021.1
+### &nbsp;&nbsp; - IntelliJ IDEA : 2021.1.2
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea)"
