@@ -12,23 +12,9 @@
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea)  
 
-## Tools
-### &nbsp;&nbsp;&nbsp;&nbsp; - PCMan File Manager : 1.3.1
+### Base Image : [baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome](https://hub.docker.com/repository/docker/baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome)  
 
-### &nbsp;&nbsp;&nbsp;&nbsp; - ZSH : 5.8
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Oh My ZSH : 95a06f3
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Git
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Gradle
-
-### &nbsp;&nbsp;&nbsp;&nbsp; - Android Studio
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Android SDK : 30
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Android Studio (Stable) : 4.1.3
-
-### &nbsp;&nbsp;&nbsp;&nbsp; - Github CLI : 1.7.0
-### &nbsp;&nbsp;&nbsp;&nbsp; - Google Chrome : 89.0.4389.114
-### &nbsp;&nbsp;&nbsp;&nbsp; - IntelliJ IDEA : 2021.1
-
-## Misc. Tools
-### &nbsp;&nbsp;&nbsp;&nbsp; - Tint 2 : 16.7
+## Additional Tools
+### &nbsp;&nbsp; - IntelliJ IDEA : 2021.1
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio-gh-chrome-intellij-idea)"
